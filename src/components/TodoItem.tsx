@@ -13,11 +13,11 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
   const dispatch = useDispatch();
 
   const handleToggle = () => {
-    dispatch(toggleTodo(todo.id)); // Uncomment to dispatch toggleTodo action
+    dispatch(toggleTodo(todo.id)); 
   };
 
   const handleDelete = () => {
-    dispatch(deleteTodo(todo.id)); // Uncomment to dispatch deleteTodo action
+    dispatch(deleteTodo(todo.id)); 
   };
 
   return (
